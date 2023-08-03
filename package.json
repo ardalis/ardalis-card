@@ -1,0 +1,32 @@
+{
+	"name": "ardalis",
+	"version": "1.0.0",
+	"description": "Ardalis's personal calling card.",
+	"main": "./bin/card.js",
+	"bin": {
+		"ardalis": "./bin/card.js"
+	},
+	"scripts": {
+		"lint": "eslint bin/*.js art/*.js"
+	},
+	"keywords": [
+		"Steve",
+		"Smith",
+		"ardalis"
+	],
+	"author": "Steve Smith <steve@ardalis.com> (https://ardalis.com)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ardalis/ardalis-card.git"
+	},
+	"dependencies": {
+		"boxen": "^5.0.1",
+		"chalk": "^4.1.0",
+		"gradient-string": "^2.0.2"
+	},
+	"devDependencies": {
+		"eslint": "^8.46.0",
+		"eslint-config-reverentgeek": "^4.0.1"
+	}
+}
