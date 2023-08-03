@@ -1,6 +1,6 @@
 # Ardalis Calling Card
 
-In case you ever need my information and all you have is a terminal and `npm`.
+In case you ever need my information and all you have is a terminal and `npm`. [ardalis on npm](https://www.npmjs.com/package/ardalis)
 
 ## Usage
 
